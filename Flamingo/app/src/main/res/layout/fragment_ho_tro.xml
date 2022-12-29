@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.HoTroFragment" >
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="3.	Nguyễn Tuấn Cảnh – 20DH110317" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="2.	Nguyễn Trung Nghĩa – 20DH111388" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="1.	Nguyễn Thị Thanh Ngân – 20DH111120" />
+</LinearLayout>

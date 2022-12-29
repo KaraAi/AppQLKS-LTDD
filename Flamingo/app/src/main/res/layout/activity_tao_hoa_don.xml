@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96DFD8"
+    tools:context=".HoaDon.TaoHoaDon">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edTenKH"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/txt_bg"
+            android:padding="20px"
+            android:ems="10"
+            android:hint="Nhập số phòng"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/edsdt"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:background="@drawable/txt_bg"
+            android:hint="Nhập họ tên người thêm phòng"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtCCCD"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:background="@drawable/txt_bg"
+            android:ems="10"
+            android:hint="Số CCCD/CMDD/Hộ chiếu"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:background="@drawable/txt_bg"
+            android:hint="Nhập số điện thoại"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/txt_bg"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:ems="10"
+                android:hint="Giờ"
+                android:inputType="time" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:ems="10"
+                android:background="@drawable/txt_bg"
+                android:hint="Ngày tháng năm"
+                android:inputType="date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnThem"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Thêm" />
+
+            <Button
+                android:id="@+id/buttonthem"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="Hủy" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

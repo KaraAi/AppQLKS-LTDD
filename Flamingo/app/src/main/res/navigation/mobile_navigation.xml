@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_home"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/nav_trangchu"
+        android:name="com.example.flamingo.fragment.TrangChuFragment"
+        android:label="@string/menu_trangchu"
+        tools:layout="@layout/fragment_trang_chu" />
+    <fragment
+        android:id="@+id/nav_khachhang"
+        android:name="com.example.flamingo.fragment.KhachHangFragment"
+        android:label="@string/menu_khachhang"
+        tools:layout="@layout/fragment_khach_hang" />
+    <fragment
+        android:id="@+id/nav_xuathoadon"
+        android:name="com.example.flamingo.fragment.XuatHoaDonFragment"
+        android:label="@string/menu_xuathoadon"
+        tools:layout="@layout/fragment_xuat_hoa_don" />
+    <fragment
+        android:id="@+id/nav_quanlyxuatnhap"
+        android:name="com.example.flamingo.fragment.QuanLyXuatNhapFragment"
+        android:label="@string/menu_quanlyxuatnhap"
+        tools:layout="@layout/fragment_quan_ly_xuat_nhap" />
+    <fragment
+        android:id="@+id/nav_nguoidung"
+        android:name="com.example.flamingo.fragment.NguoiDungFragment"
+        android:label="@string/menu_nguoidung"
+        tools:layout="@layout/fragment_nguoi_dung" />
+    <fragment
+        android:id="@+id/nav_hotro"
+        android:name="com.example.flamingo.fragment.HoTroFragment"
+        android:label="@string/menu_hotro"
+        tools:layout="@layout/fragment_ho_tro" />
+    <fragment
+        android:id="@+id/nav_vechungtoi"
+        android:name="com.example.flamingo.fragment.VeChungToiFragment"
+        android:label="@string/menu_vechungtoi"
+        tools:layout="@layout/fragment_ve_chung_toi" />
+
+
+</navigation>

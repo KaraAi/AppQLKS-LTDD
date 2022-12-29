@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5C5B5B"
+    android:backgroundTint="#FFFFFF"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAB5B5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số Phòng: "
+                android:textSize="16sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/sophong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SoPhong" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và Tên Người Thuê: "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/hotennguoithue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HoTenNguoiThue" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giờ thuê: "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/giothue"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:text="GioThue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày thuê: "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ngaythue"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="NgayThue" />
+
+            <Button
+                android:id="@+id/btnSua"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:text="Sửa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CMND/CCCD: "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cmnd"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="CMND" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SĐT: "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sdt"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:text="SDT" />
+
+            <Button
+                android:id="@+id/btnXoa"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:text="Xoá" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96DFD8"
+    tools:context=".Phòng.TaoPhong">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edTenKH"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/txt_bg"
+            android:ems="10"
+            android:hint="Nhập Tên KH"
+            android:inputType="textPersonName"
+            android:padding="20px" />
+
+
+        <EditText
+            android:id="@+id/edsdt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/txt_bg"
+            android:ems="10"
+            android:hint="Số Điện Thoại"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edcccd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/txt_bg"
+            android:ems="10"
+            android:hint="Căn Cước Công Dân"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
